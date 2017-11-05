@@ -1,0 +1,58 @@
+
+/* The first section: basic information */
+#greetings{
+	text-align: center;
+	font-style: 900;
+	font-size: 60px;
+	color: #ddd;
+	line-height: 0px;
+}
+
+.personalInfo{
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	line-height: 10px;
+	font-size: 20px;
+}
+.otherInfo{
+	box-sizing: border-box;
+	text-align: center;
+	display: inline-block;
+	width: 70%;
+	line-height: 20px;
+	font-size: 20px;
+	position: relative;
+	float: right;
+  border: solid;
+}
+.profilePic{
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+
+/* Whole page */
+
+#top{
+	color: #ccc;
+	font: normal "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url("http://www.library.dartmouth.edu/sites/default/files/media-images/berry-hall-dartmouth.jpg");
+	background-repeat: y-repeat;
+	background-size: 100% 100%;
+}
+
+a{
+	color: #aaa;
+	font: bold "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+a:hover{
+	color: white;
+}
+header{
+	color: #defdef;
+}
+img{
+	width: 420px;
+	filter: brightness(95%);
+}
