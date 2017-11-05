@@ -53,6 +53,9 @@ header{
 	color: #defdef;
 }
 img{
-	width: 420px;
+	width: 100%;
 	filter: brightness(95%);
+}
+nav{
+	width: 100%
 }
